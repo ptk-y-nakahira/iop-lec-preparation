@@ -14,7 +14,7 @@
 - Arduino-ESP32 サポート のインストール
 - USBドライバのインストール
 
-<div style="{height: 3em}"></div>
+<div style="height: 10em;"></div>
 
 ---
 
