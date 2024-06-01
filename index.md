@@ -2,6 +2,8 @@
 
 ## 変更履歴
 
+<div style="height: 20em;"></div>
+
 | 変更日時 | 変更内容 | 担当者 |
 | --- | --- | --- |
 | 2024/06/01 | 初版 | PTK 中平 |
@@ -16,23 +18,29 @@
 - Arduino-ESP32 サポート のインストール
 - USBドライバのインストール
 
-<div style="height: 10em;"></div>
+<div style="height: 20em;"></div>
 
 ---
 
 ## 2. Arduino IDEのインストール
 
+<div style="height: 3em;"></div>
+
 Arduino IDE とはArduinoボード上で動作するソフトウェアを開発するために作られた統合開発環境です。ソースコードの編集、マイコンへの書き込み機能などの機能を有します。C言語とC++をベースとした「Arduino 言語」によってプログラムを作成できます。
+
+<div style="height: 3em;"></div>
 
 > ### Arduino とは
 > Arduino ボード（ハードウェア）とArduino IDE（ソフトウェア）から構成されるシステムです。ワンボードマイコンの一種であり、I/Oポートを備えることで拡張性に富んだ装置として使用できます。
 > オープンソースのハードウェアとソフトウェアであり、簡単な規定さえ守れば誰でも自由に使用できます。
 
+<div style="height: 5em;"></div>
+
 プログラムを開発し、マイコンに書き込むArduino IDE のインストールを行います。
 
 [Arduino IDE 公式サイト](https://www.arduino.cc/en/software)より、インストールファイルをダウンロードします。
 
-<div style="height: 3em;"></div>
+<div style="height: 5em;"></div>
 
 ![](/images/0001_arduino.jpg)
 
@@ -64,11 +72,13 @@ Arduino IDE とはArduinoボード上で動作するソフトウェアを開発�
 
 ![](/images/0006_arduino.jpg)
 
-<div style="height: 10em;"></div>
+<div style="height: 30em;"></div>
 
 ---
 
 ## 3. Arduino-ESP32 サポートのインストール
+
+<div style="height: 3em;"></div>
 
 講座では[ESP32](https://ja.wikipedia.org/wiki/ESP32)というArduinoと互換性のあるマイクロコントローラを使用します。
 
@@ -76,7 +86,11 @@ Arduino IDE でESP32を開発するためのサポート ([Arduino-ESP32 support
 
 まず、Arduino IDEを起動します。
 
+<div style="height: 3em;"></div>
+
 ![](/images/0007_esp32.jpg)
+
+<div style="height: 3em;"></div>
 
 **ファイル** > **基本設定** の順にクリックします
 
@@ -86,10 +100,13 @@ Arduino IDE でESP32を開発するためのサポート ([Arduino-ESP32 support
 https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ```
 
+<div style="height: 3em;"></div>
+
 ![](/images/0008_esp32.jpg)
 
 **OK** ボタンをクリックします。
 
+<div style="height: 3em;"></div>
 
 ![](/images/0009_esp32.jpg)
 
@@ -118,7 +135,7 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 ![](/images/0012_esp32.jpg)
 
-<div style="height: 5em;"></div>
+<div style="height: 30em;"></div>
 
 ---
 
@@ -128,11 +145,15 @@ ArduinoIDEを使用してESP32にプログラムを書き込む際には、USB�
 
 [参考](https://docs.espressif.com/projects/esp-idf/en/v4.3.4/esp32/get-started/establish-serial-connection.html)
 
-※ 使用するPCやOSのバージョンによって必要ない場合もあります
+※ 使用するPCやOSのバージョンによっては必要ありません。不明でしたら講座当日のインストールでも構いません
+
+<div style="height: 3em;"></div>
 
 > ### UARTとは
 > PCとESP32との間の通信に使われるプロトコルです。通信は特定のビットレート（**Baud Rate: ボーレート**）で行われます。
 > ESP32にプログラムを書き込んだり、ESP32からのデータをリアルタイムで表示(ArduinoIDEのシリアルモニタ機能)できます。
+
+<div style="height: 3em;"></div>
 
 ### インストール
 
@@ -158,7 +179,7 @@ ArduinoIDEを使用してESP32にプログラムを書き込む際には、USB�
 
 <div style="height: 5em;"></div>
 
-### デバイスマネージャの確認
+### デバイスマネージャで確認
 
 **Windowsのスタートボタンを右クリック** し、 **デバイスマネージャ** をクリックして開きます
 
