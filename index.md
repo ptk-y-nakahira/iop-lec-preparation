@@ -6,6 +6,8 @@
 | --- | --- | --- |
 | 2024/06/01 | 初版 | PTK 中平 |
 
+<div style="height: 20em;"></div>
+
 ## 1. 概要
 
 本マニュアルでは講座で使用するアプリケーションと、USBシリアル通信を行うためのUSBドライバのインストールを行う手順を説明します
@@ -30,23 +32,39 @@ Arduino IDE とはArduinoボード上で動作するソフトウェアを開発�
 
 [Arduino IDE 公式サイト](https://www.arduino.cc/en/software)より、インストールファイルをダウンロードします。
 
+<div style="height: 3em;"></div>
+
 ![](/images/0001_arduino.jpg)
+
+<div style="height: 3em;"></div>
 
 > ### ZIPファイルも選択できます
 > インストーラー（exe, msi）だけでなく、インストール不要のzip圧縮ファイルも選択できます。社用PCなどインストールできない場合にはこちらを選択してください。
 > エクスプローラーでファイルを右クリックし「すべて展開」することで解凍され、実行可能になります。
 
+<div style="height: 3em;"></div>
+
 ![](/images/0002_arduino.jpg)
+
+<div style="height: 3em;"></div>
 
 寄付やメール登録を促す画面が表示されます。**Just Download** を選択することでパスできます。
 
 ![](/images/0003_arduino.jpg)
 
+<div style="height: 3em;"></div>
+
 ![](/images/0004_arduino.jpg)
+
+<div style="height: 3em;"></div>
 
 ![](/images/0005_arduino.jpg)
 
+<div style="height: 3em;"></div>
+
 ![](/images/0006_arduino.jpg)
+
+<div style="height: 10em;"></div>
 
 ---
 
@@ -79,15 +97,28 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 (左側のメニューの上から2番目のアイコンをクリックしても開けます)
 
+<div style="height: 3em;"></div>
+
 ![](/images/0010_esp32.jpg)
+
+<div style="height: 3em;"></div>
 
 検索フォームで `esp32` と検索して `esp32 by Espressif Systems` がヒットします。複数表示された場合は 開発元が ESP32の`Espressif Systems` になっているか確認してください。
 
+
+<div style="height: 3em;"></div>
+
 ![](/images/0011_esp32.jpg)
+
+<div style="height: 3em;"></div>
 
 **インストール** ボタンをクリックしてインストールします。（インストールには時間がかかります）
 
+<div style="height: 3em;"></div>
+
 ![](/images/0012_esp32.jpg)
+
+<div style="height: 5em;"></div>
 
 ---
 
@@ -109,15 +140,23 @@ ArduinoIDEを使用してESP32にプログラムを書き込む際には、USB�
 
 ![](/images/0013_cp210x.jpg)
 
+<div style="height: 3em;"></div>
+
 ![](/images/0014_cp210x.jpg)
 
 ダウンロードしたファイルを実行してインストールします。
 
 ![](/images/0015_cp210x.jpg)
 
+<div style="height: 3em;"></div>
+
 ![](/images/0016_cp210x.jpg)
 
+<div style="height: 3em;"></div>
+
 ![](/images/0017_cp210x.jpg)
+
+<div style="height: 5em;"></div>
 
 ### デバイスマネージャの確認
 
