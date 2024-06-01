@@ -60,12 +60,22 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 ArduinoIDEを使用してESP32にプログラムを書き込む際には、USBケーブルで接続して通信します。この際に必要なドライバのインストールです。
 
-※ 使用するPCやOSによって必要ない場合もあります
+[参考](https://docs.espressif.com/projects/esp-idf/en/v4.3.4/esp32/get-started/establish-serial-connection.html)
+
+※ 使用するPCやOSのバージョンによって必要ない場合もあります
+
+> ### UARTとは
+> PCとESP32との間の通信に使われるプロトコルです。通信は特定のビットレート（**Baud Rate: ボーレート**）で行われます。
+> ESP32にプログラムを書き込んだり、ESP32からのデータをリアルタイムで表示(ArduinoIDEのシリアルモニタ機能)できます。
+
+### インストール
 
 ```
 https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads
 ```
 
-> ### UARTとは
-> PCとESP32との間の通信に使われるプロトコルです。通信は特定のビットレート（**Baud Rate: ボーレート**）で行われます。
-> ESP32にプログラムを書き込んだり、ESP32からのデータをリアルタイムで表示(シリアルモニタ)できます。
+### デバイスマネージャの確認
+
+**Windowsのスタートボタンを右クリック** し、 **デバイスマネージャ** をクリックして開きます
+
+**ポート（COMとLPT）** をクリックして展開します
